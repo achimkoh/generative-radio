@@ -1,0 +1,34 @@
+body {
+  font-family: 'Codystar';
+  font-size: 28px;
+  color:white;
+  background-color:black;
+}
+
+#start, marquee.button {
+  cursor: pointer;
+}
+
+#start:hover, marquee.button:hover {
+    color: magenta
+}
+
+marquee {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#form {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+form {
+  font-size: 16px;
+  margin-top: 1em;
+}
